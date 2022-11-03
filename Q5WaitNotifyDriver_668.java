@@ -31,14 +31,14 @@ public class Q5WaitNotifyDriver {
             synchronized int getVal() {
                     try {
                     System.out.println("waiting");
-                    // waiting for notify from setVal
+                    
                     this.wait();
                     } catch (InterruptedException ie) { }
                     return val;
-            } // getVal
+            } 
                 synchronized void setVal(int x) {
                         val = x;
                         this.notifyAll();
-            } // setVal
+            } 
    }
    
