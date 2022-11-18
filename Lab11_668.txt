@@ -1,0 +1,5 @@
+1) notifyAll();
+2) synchronized
+3) wait();
+4) inside try block
+5) public
